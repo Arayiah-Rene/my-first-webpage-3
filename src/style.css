@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=BioRhyme+Expanded:wght@200;300;400;700;800&display=swap');
+main{
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.biorhyme-expanded-light {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.biorhyme-expanded-regular {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.biorhyme-expanded-bold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.biorhyme-expanded-extrabold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F2;
+}
+h1, h2 {
+  font-family: "BioRhyme Expanded", cursive;
+  color: #A99B8B;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+header {
+  background-color:#21381D ;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+nav {
+  font-family: Acme, sans-serif;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: #615F36;
+  font-size: 1.2rem;
+  
+}
+nav li {
+  
+}
+main {
+  padding: 1rem;
+  color: #615F36;
+}
+img {
+  max-width: 100%;
+}
+iframe {
+  max-width: 100%;
+}
+p {
+  color: n#573A27;
+}
+footer {
+  background-color:#A99B8B;
+  padding: 3rem;
+  text-align: center;
+  color: #573A27;
+}
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
